@@ -1,13 +1,9 @@
 ## ¿Qué publicas?
 <!-- Una línea: qué problema resuelve -->
 
-## Checklist
-- [ ] Mi artículo está en `aportes/<slug>/item.es.md`
-- [ ] El encabezado incluye `title`, `date`, `author` y taxonomías `tool`, `resource`, `country`
-- [ ] Etiquetas en minúsculas y sin tildes
-- [ ] No incluyo credenciales ni datos de terceros
-- [ ] Las imágenes están en la misma carpeta y pesan menos de 1 MB cada una
-- [ ] Mi PR solo modifica archivos dentro de `aportes/`
-- [ ] Probé los pasos y comandos de mi artículo y son correctos
-- [ ] Tengo permiso sobre el contenido (es mío o cuento con autorización de su autor)
-- [ ] Si usé IA, declaré `ia: asistido` y resolví todas las marcas `[VERIFICAR ...]`
+## Antes de enviar
+- [ ] Mi artículo está en `aportes/<slug>/item.es.md` y mi PR solo toca esa carpeta
+- [ ] Probé los pasos y no incluyo credenciales ni datos de terceros
+- [ ] Tengo permiso sobre el contenido; si usé IA, declaré `ia: asistido` y resolví los `[VERIFICAR]`
+
+> Si la revisión automática marca algo, corrige el archivo en este mismo PR: se vuelve a revisar sola.

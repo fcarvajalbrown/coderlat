@@ -80,6 +80,10 @@ Incluye de 2 a 4 preguntas en `faq`. Después del archivo, agrega:
 - Declara el uso de IA con `ia: asistido` en el encabezado (el prompt ya lo agrega). El sitio mostrará la nota "Redactado con asistencia de IA y revisado por el autor".
 - Eres el responsable de lo que publicas: que sea correcto, probado y sin datos sensibles.
 
+## Si la revisión automática marca algo
+
+No necesitas abrir otro PR ni volver a llenar la plantilla. Entra a tu Pull Request, abre **Files changed**: los problemas aparecen marcados en la línea exacta. Corrige el archivo (⋯ → **Edit file** o un nuevo commit en tu rama) y la revisión se repite sola. Las **recomendaciones** (descripción corta, título largo, falta un `##`) no bloquean la publicación; los **errores** sí.
+
 ## Encabezado obligatorio
 
 ```yaml
@@ -96,6 +100,8 @@ metadata:
 ia: asistido                  # opcional: solo si usaste IA para redactar
 ---
 ```
+
+Solo se aceptan estos campos en el encabezado: `title`, `date`, `updated`, `author`, `ia`, `taxonomy`, `metadata`, `faq`, `sources`, `media_order` y `hero_image`.
 
 Las etiquetas van en minúsculas y sin tildes para que los filtros del sitio no se dupliquen (`n8n` y `N8N` serían filtros distintos).
 
