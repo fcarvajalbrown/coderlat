@@ -1,6 +1,6 @@
 # Coderlat.com — contenido de la comunidad
 
-Soluciones, skills, automatizaciones y guías hechas en Latinoamérica. Este repositorio es el **buzón** de aportes: los artículos aprobados se publican en coderlat.com y salen de aquí automáticamente.
+Soluciones, skills, automatizaciones y guías hechas en Latinoamérica. Este repositorio es el **buzón** de aportes: los artículos aprobados se publican en [coderlat.com](https://www.coderlat.com/) y salen de aquí automáticamente.
 
 **¿Quieres publicar?** Lee [CONTRIBUTING.md](CONTRIBUTING.md). Si no usas git, abre un [Issue "Proponer solución"](../../issues/new/choose) y lo convertimos en artículo.
 
